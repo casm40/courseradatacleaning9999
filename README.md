@@ -21,6 +21,7 @@ Merges the training and the test sets to create one data set
 * The features.txt has variables x561, each consisting of measurements 
 * The test/X_test.txt contains the test data 
 * The train/X_test.txt contain the train data
+* The train and test y_test.txt contain the activities data
 
 ### Load Data from files
 

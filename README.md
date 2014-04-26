@@ -9,23 +9,24 @@ This README file explains the dataset structure, then shows how the run_analysis
 Dataset Structure
 -----------------
 
-The UCI-HAR-Dataset consists of the following files. The script assumes they are all in the UCI_HAR-Dataset folder in the working directory using the same structure as the download from the website (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip): 
+The UCI-HAR-Dataset consists of the following files. The script assumes they are all in the UCI_HAR-Dataset folder in the working directory using the same structure as the download from the website (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 The run_analysis.R script does the following:
 
 Merges the training and the test sets to create one data set
 ------------------------------------------------------------
 
+### Load Data from files
+
+This script loads data from the files into variables and datasets. This makes the components of the dataset available within R Studio.
+
+The following files are used:
 * The test/subject_test.txt has subjects numbered for all 2947 rows 
 * The train/subject_train.txt has subjects numbered for all 7352 rows 
 * The features.txt has variables x561, each consisting of measurements 
 * The test/X_test.txt contains the test data 
 * The train/X_test.txt contain the train data
 * The train and test y_test.txt contain the activities data
-
-### Load Data from files
-
-This script loads data from the files into variables and datasets. This makes the components of the dataset available within R Studio.
 
 ### Get Headings
 
